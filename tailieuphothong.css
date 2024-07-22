@@ -23,5 +23,6 @@ body{
 }
 
 h2:target{
-    color: #87fc11;
+    color: #91fc26;
+    font-style: italic;
 }

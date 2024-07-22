@@ -1,0 +1,27 @@
+[title~="tienich1"]:link{
+    color: #87fc11;
+}
+
+[title~="tienich1"]:visited{
+    color: rgb(16, 12, 216);
+}
+
+h1{
+    color: blueviolet;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.Biologica{
+    color: rgb(0, 31, 205);
+    font-size: 20px;
+    font-style: italic;
+}
+
+body{
+    font-style: italic;
+}
+
+h2:target{
+    color: #87fc11;
+}

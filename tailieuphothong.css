@@ -2,6 +2,14 @@
     color: #87fc11;
 }
 
+.tienich{
+    width: 280px;
+    height: 60px;
+    background-color: blueviolet;
+    border: 10px solid blue;
+    border-radius: 20px;
+}
+
 [title~="tienich1"]:visited{
     color: rgb(16, 12, 216);
 }
@@ -25,4 +33,36 @@ body{
 h2:target{
     color: #91fc26;
     font-style: italic;
+}
+
+.IMGG {
+    height: 100px;
+    width: 100px;
+    border: 5px solid blue;
+    border-radius: 500px;
+    margin-left: 20px;
+}
+
+.logo{
+    background-color: #eb1c0d;
+    padding: 30px;
+}
+
+.click{
+    border: 2px solid rgb(23, 207, 69);
+    background-color: blueviolet;
+    padding: 2px;
+    color: #fcfcfc;
+}
+
+.click.click1 {
+    margin-left: 45px;
+}
+
+.click.click2 {
+    margin-left: 75px;
+}
+
+.click.click3 {
+    margin-left: 70px;
 }

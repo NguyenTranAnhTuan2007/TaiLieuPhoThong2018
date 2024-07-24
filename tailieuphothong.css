@@ -1,5 +1,23 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.roboto-condensed-<uniquifier> {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
 [title~="tienich1"]:link{
     color: #87fc11;
+}
+
+.logo{
+    width: 100%;
+}
+
+.click.click1 {
+    margin-left: 10%;
 }
 
 .tienich{
@@ -31,8 +49,8 @@ body{
 }
 
 h2:target{
-    color: #91fc26;
-    font-style: italic;
+    color: #5303ff;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 .IMGG {
@@ -44,25 +62,57 @@ h2:target{
 }
 
 .logo{
-    background-color: #eb1c0d;
-    padding: 30px;
+    height: 25vh;
+    background-image: url(./img/background.jpg);
+    background-size: cover;
 }
 
 .click{
-    border: 2px solid rgb(23, 207, 69);
+    text-decoration: none;
+    background-color: #87fc11;
+    border-radius: 999px;
+    width: 84px;
+    padding: 8px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 25px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.click:hover{
+    color: white;
     background-color: blueviolet;
-    padding: 2px;
-    color: #fcfcfc;
 }
 
-.click.click1 {
-    margin-left: 45px;
+body{
+    background-color: rgb(114, 204, 240);
 }
 
-.click.click2 {
-    margin-left: 75px;
+.boxtest {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    overflow: auto;
+    overscroll-behavior: contain;
 }
 
-.click.click3 {
-    margin-left: 70px;
-}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #b8d4ff;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #02a9fd;
+    border-radius: 20px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ef7199;
+  }
